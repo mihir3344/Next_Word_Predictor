@@ -1,14 +1,15 @@
 # Next Word Predictor
 
-This project uses Long Short-Term Memory (LSTM) networks to predict the next word in a given sequence. The model is trained on a dataset of short jokes and leverages LSTM to understand the sequential context of the text, enabling accurate next-word predictions.
+This project uses Long Short-Term Memory (LSTM) networks to predict the next word in a given sequence. The model is trained on a dataset of short jokes and can accurately predict the next word based on the given input text. While the model is ready, ongoing improvements are being made to enhance its performance and accuracy.
 
 ## Current Status
-- **Still Improving**: Work is ongoing to optimize the model for better performance and accuracy.
+- **Model Ready**: The next word predictor model is fully trained and functional.
+- **Performance Optimization**: Continuous work is being done to improve the model's performance and accuracy.
 
 ## Features
-- Predicts the next word in a given sequence of text using LSTM.
-- Trained on a dataset of short jokes for accurate word prediction.
-- Continuously improving with future optimizations planned for accuracy.
+- Predicts the next word in a sequence using LSTM.
+- Trained on a dataset of short jokes for accurate predictions.
+- Ongoing improvements for better performance and fine-tuning.
 
 ## Installation
 
