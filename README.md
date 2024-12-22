@@ -1,21 +1,16 @@
-# Next Word Predictor (Short Joke Dataset)
+# Next Word Predictor
 
-This project is a machine learning-based next word prediction model using a dataset of short jokes. The goal is to predict the next word in a given joke using Natural Language Processing (NLP) techniques and a deep learning model (LSTM). 
+This project uses Long Short-Term Memory (LSTM) networks to predict the next word in a given sequence. The model is trained on a dataset of short jokes and leverages LSTM to understand the sequential context of the text, enabling accurate next-word predictions.
 
 ## Current Status
-- **Still Improving**: The model is currently being optimized for better accuracy. Future improvements include working on validation accuracy and fine-tuning the model.
+- **Still Improving**: Work is ongoing to optimize the model for better performance and accuracy.
 
-## Dataset
-The dataset used is from [Abhinav Moudgil's short jokes dataset](https://www.kaggle.com/abhinavmoudgil95/short-jokes), which contains short jokes. We use the text data for training the next word prediction model.
-
-## Key Features
-- **Tokenization**: Text is tokenized and padded to create input sequences.
-- **Model**: The model consists of an embedding layer followed by an LSTM layer, which is trained on the joke data to predict the next word.
-- **Prediction**: The model predicts the next word in the joke iteratively based on user input.
+## Features
+- Predicts the next word in a given sequence of text using LSTM.
+- Trained on a dataset of short jokes for accurate word prediction.
+- Continuously improving with future optimizations planned for accuracy.
 
 ## Installation
 
-To get started, you'll need to install the necessary dependencies:
-
 ```bash
-pip install tensorflow pandas kagglehub
+pip install tensorflow numpy pandas kagglehub
